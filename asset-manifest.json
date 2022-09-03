@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.78a1b484.css",
+    "main.js": "/portfolio/static/js/main.fd47a336.js",
+    "static/media/me5.jpg": "/portfolio/static/media/me5.0163698a8ea3fba18e1f.jpg",
+    "static/media/me.png": "/portfolio/static/media/me.95a00dd653f2556bb6b4.png",
+    "static/media/Resume of Nitish Biswas.pdf": "/portfolio/static/media/Resume of Nitish Biswas.4f2a17e40592bfddc85c.pdf",
+    "static/media/student_list.png": "/portfolio/static/media/student_list.ac34249550e16041884b.png",
+    "static/media/stroke_web.png": "/portfolio/static/media/stroke_web.0a75ceaab5ff4b40a7c4.png",
+    "static/media/breast_cancer.png": "/portfolio/static/media/breast_cancer.58a1dca92c706c84b367.png",
+    "static/media/stroke_mobile.png": "/portfolio/static/media/stroke_mobile.bdf18d80dd815d03397b.png",
+    "static/media/breast_mobile.png": "/portfolio/static/media/breast_mobile.138eb9fbe27128622ca2.png",
+    "static/media/password.png": "/portfolio/static/media/password.51de49cc895cf38dc4df.png",
+    "index.html": "/portfolio/index.html",
+    "main.78a1b484.css.map": "/portfolio/static/css/main.78a1b484.css.map",
+    "main.fd47a336.js.map": "/portfolio/static/js/main.fd47a336.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78a1b484.css",
+    "static/js/main.fd47a336.js"
+  ]
+}
