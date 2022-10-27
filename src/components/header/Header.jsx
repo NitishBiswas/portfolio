@@ -18,6 +18,7 @@ const Header = () => {
               loop: true,
               strings: [
                 'Mobile App Developer',
+                'Research Assistant',
                 'Full Stack Developer',
                 'Frontend Developer',
               ],
