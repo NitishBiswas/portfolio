@@ -1,22 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.78a1b484.css",
-    "main.js": "/portfolio/static/js/main.aa71117c.js",
+    "main.js": "/portfolio/static/js/main.8d19b06c.js",
     "static/media/me5.jpg": "/portfolio/static/media/me5.0163698a8ea3fba18e1f.jpg",
+    "static/media/Resume of Nitish Biswas.pdf": "/portfolio/static/media/Resume of Nitish Biswas.d14933c2857d24f7abc0.pdf",
     "static/media/me.png": "/portfolio/static/media/me.95a00dd653f2556bb6b4.png",
-    "static/media/Resume of Nitish Biswas.pdf": "/portfolio/static/media/Resume of Nitish Biswas.5ad5c958daf74cc4bf4c.pdf",
-    "static/media/student_list.png": "/portfolio/static/media/student_list.ac34249550e16041884b.png",
-    "static/media/stroke_web.png": "/portfolio/static/media/stroke_web.0a75ceaab5ff4b40a7c4.png",
-    "static/media/breast_cancer.png": "/portfolio/static/media/breast_cancer.58a1dca92c706c84b367.png",
-    "static/media/stroke_mobile.png": "/portfolio/static/media/stroke_mobile.bdf18d80dd815d03397b.png",
-    "static/media/breast_mobile.png": "/portfolio/static/media/breast_mobile.138eb9fbe27128622ca2.png",
-    "static/media/password.png": "/portfolio/static/media/password.51de49cc895cf38dc4df.png",
+    "static/media/student_list.png": "/portfolio/static/media/student_list.8ea7e669fac82d8bfa96.png",
+    "static/media/stroke_web.png": "/portfolio/static/media/stroke_web.147ec2bb6d67b36a4070.png",
+    "static/media/breast_cancer.png": "/portfolio/static/media/breast_cancer.cd497fdc1b2feefc78ba.png",
+    "static/media/stroke_mobile.png": "/portfolio/static/media/stroke_mobile.e8ee3b0979cc9d468d00.png",
+    "static/media/eml_lung_cancer.png": "/portfolio/static/media/eml_lung_cancer.bd9edd4e9a3dfb85a652.png",
+    "static/media/breast_mobile.png": "/portfolio/static/media/breast_mobile.d5225eb9f021ec470a64.png",
+    "static/media/Nitish-Portfolio.png": "/portfolio/static/media/Nitish-Portfolio.54bbfb38684767c32544.png",
+    "static/media/password.png": "/portfolio/static/media/password.17466ba687c94966ec59.png",
+    "static/media/URL_DETECTION.png": "/portfolio/static/media/URL_DETECTION.54dc989e1e0f4ca69c72.png",
+    "static/media/expense-traccker.png": "/portfolio/static/media/expense-traccker.b2621edfe8c80133d02c.png",
+    "static/media/Malicious URL Input Web.png": "/portfolio/static/media/Malicious URL Input Web.8461e3639ce2ef38e429.png",
     "index.html": "/portfolio/index.html",
     "main.78a1b484.css.map": "/portfolio/static/css/main.78a1b484.css.map",
-    "main.aa71117c.js.map": "/portfolio/static/js/main.aa71117c.js.map"
+    "main.8d19b06c.js.map": "/portfolio/static/js/main.8d19b06c.js.map"
   },
   "entrypoints": [
     "static/css/main.78a1b484.css",
-    "static/js/main.aa71117c.js"
+    "static/js/main.8d19b06c.js"
   ]
 }
