@@ -148,7 +148,7 @@ const Portfolio = () => {
       <div className="container">
       <article className="portfolio_item" style={{width: '100%'}}>
           <h3>Journal Papers</h3>
-          <h4 style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />N. Biswas, K.M.M. Uddin, S.T. Rikta et al., A comparative analysis of machine learning classifiers for stroke prediction: A predictive analytics approach, Healthcare Analytics (2022), doi: <a style={{display: 'inline'}} href='https://doi.org/10.1016/j.health.2022.100116'>https://doi.org/10.1016/j.health.2022.100116</a> (Publisher: Elsevier).</h4>
+          <h4 style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />N. Biswas, K.M.M. Uddin, S.T. Rikta et al., A comparative analysis of machine learning classifiers for stroke prediction: A predictive analytics approach, Healthcare Analytics (2022), doi: <a style={{display: 'inline'}} href='https://doi.org/10.1016/j.health.2022.100116' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.health.2022.100116</a> (Publisher: Elsevier).</h4>
           <br />
           <h4  style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, "Machine Learning-based Diagnosis of Breast Cancer Utilizing Feature Optimization Technique", Journal: Computer Methods and Programs in Biomedicine Update (Under review).</h4>
           <br />
@@ -161,9 +161,9 @@ const Portfolio = () => {
         <br />
         <article className="portfolio_item" style={{width: '100%'}}>
           <h3>Conference Papers</h3>
-          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, R. B. Himel and N. Biswas, "Quantum Technology for Comparator Circuit," 2022 23rd International Symposium on Quality Electronic Design (ISQED), 2022, pp. 1-1, doi:  <a style={{ display: 'inline' }} href='https://doi.org/10.1109/ISQED54688.2022.9806275'>https://doi.org/10.1109/ISQED54688.2022.9806275</a></h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, R. B. Himel and N. Biswas, "Quantum Technology for Comparator Circuit," 2022 23rd International Symposium on Quality Electronic Design (ISQED), 2022, pp. 1-1, doi:  <a style={{ display: 'inline' }} target='_blank' href='https://doi.org/10.1109/ISQED54688.2022.9806275' rel="noreferrer">https://doi.org/10.1109/ISQED54688.2022.9806275</a></h4>
           <br />
-          <h4 style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, N. Biswas and S. T. Rikta, DNA Multiplier: A Design Architecture of a Multiplier Circuit Using DNA Molecules, London, United Kingdom <a style={{display: 'inline'}} href='https://publications.waset.org/abstracts/141053/pdf?fbclid=IwAR31p6111rvumFqhdRRvgAWotLXPGVEy9c765ic5a01ckkqMRYgd3V_fadc'>https://publications.waset.org/abstracts/141053/</a></h4>
+          <h4 style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, N. Biswas and S. T. Rikta, DNA Multiplier: A Design Architecture of a Multiplier Circuit Using DNA Molecules, London, United Kingdom <a style={{display: 'inline'}} target='_blank' href='https://publications.waset.org/abstracts/141053/pdf?fbclid=IwAR31p6111rvumFqhdRRvgAWotLXPGVEy9c765ic5a01ckkqMRYgd3V_fadc' rel="noreferrer">https://publications.waset.org/abstracts/141053/</a></h4>
           <br />
           
         </article>
