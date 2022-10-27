@@ -12,6 +12,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     width: 320px;
+    overflow-wrap: break-word;
 }
 
 .portfolio_item:hover {
