@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 
-import {GiTwirlyFlower} from 'react-icons/gi'
+import { GiTwirlyFlower } from 'react-icons/gi'
 
 import BREAST_IMG from '../../assets/breast_cancer.png'
 import BREAST_CANCER_MOBILE from '../../assets/breast_mobile.png'
@@ -14,6 +14,7 @@ import URL_DETECTION from '../../assets/URL_DETECTION.png'
 import MALICIOUS_URL_DETECTION from '../../assets/Malicious URL Input Web.png'
 import EXPENSE_TRACKER from '../../assets/expense-traccker.png'
 import NITISH_PORTFOLIO from '../../assets/Nitish-Portfolio.png'
+import CHAT_APP_MOBILE from '../../assets/chat-app2.png';
 
 
 const Portfolio = () => {
@@ -26,12 +27,12 @@ const Portfolio = () => {
         <br />
         <br />
         <hr style={{ height: 1, backgroundColor: 'gray' }} />
-        <h3 style={{textAlign: 'center', padding: 10}}>Mobile Applications</h3>
+        <h3 style={{ textAlign: 'center', padding: 10 }}>Mobile Applications</h3>
         <hr style={{ height: 1, backgroundColor: 'gray' }} />
         <br />
         <br />
       </div>
-      
+
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
@@ -73,27 +74,36 @@ const Portfolio = () => {
           <a className='btn' href="https://github.com/NitishBiswas/Lung_Cancer_Prediction" target='_blank' rel="noreferrer">Github</a>
         </article>
 
-        <article className="portfolio_item">
+        {/* <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={URL_DETECTION} alt="Stroke Web" />
           </div>
           <h3>Malicious URL Detection</h3>
           <a className='btn' href="https://github.com/NitishBiswas/Malicious_URL_Detection_Mobile_APP/tree/main/MaliciousURL" target='_blank' rel="noreferrer">Github</a>
+        </article> */}
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={CHAT_APP_MOBILE} alt="Stroke Web" />
+          </div>
+          <h3>Chat App</h3>
+          <a className='btn' href="https://github.com/NitishBiswas/Chat-App-Mobile" target='_blank' rel="noreferrer">Github</a>
         </article>
+
       </div>
 
       <div className='container'>
         <br />
         <br />
         <hr style={{ height: 1, backgroundColor: 'gray' }} />
-        <h3 style={{textAlign: 'center', padding: 10}}>Web Applications</h3>
+        <h3 style={{ textAlign: 'center', padding: 10 }}>Web Applications</h3>
         <hr style={{ height: 1, backgroundColor: 'gray' }} />
         <br />
         <br />
       </div>
-      
+
       <div className="container portfolio_container">
-        
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={STROKE_WEB} alt="Stroke Web" />
@@ -139,33 +149,33 @@ const Portfolio = () => {
         <br />
         <br />
         <hr style={{ height: 1, backgroundColor: 'gray' }} />
-        <h3 style={{textAlign: 'center', padding: 10}}>Paper and Publications</h3>
+        <h3 style={{ textAlign: 'center', padding: 10 }}>Paper and Publications</h3>
         <hr style={{ height: 1, backgroundColor: 'gray' }} />
         <br />
         <br />
       </div>
 
       <div className="container">
-      <article className="portfolio_item" style={{width: '100%'}}>
+        <article className="portfolio_item" style={{ width: '100%' }}>
           <h3>Journal Papers</h3>
-          <h4 style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />N. Biswas, K.M.M. Uddin, S.T. Rikta et al., A comparative analysis of machine learning classifiers for stroke prediction: A predictive analytics approach, Healthcare Analytics (2022), doi: <a style={{display: 'inline'}} href='https://doi.org/10.1016/j.health.2022.100116' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.health.2022.100116</a> (Publisher: Elsevier).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />N. Biswas, K.M.M. Uddin, S.T. Rikta et al., A comparative analysis of machine learning classifiers for stroke prediction: A predictive analytics approach, Healthcare Analytics (2022), doi: <a style={{ display: 'inline' }} href='https://doi.org/10.1016/j.health.2022.100116' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.health.2022.100116</a> (Publisher: Elsevier).</h4>
           <br />
-          <h4  style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, "Machine Learning-based Diagnosis of Breast Cancer Utilizing Feature Optimization Technique", Journal: Computer Methods and Programs in Biomedicine Update (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, "Machine Learning-based Diagnosis of Breast Cancer Utilizing Feature Optimization Technique", Journal: Computer Methods and Programs in Biomedicine Update (Under review).</h4>
           <br />
-          <h4  style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, " Explainable Machine Learning Can Outperform Stroke Predictions and Hybrid Stroke Prediction Application: A Predictive Analytics Approach", Journal: Healthcare Analytics (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, " Explainable Machine Learning Can Outperform Stroke Predictions and Hybrid Stroke Prediction Application: A Predictive Analytics Approach", Journal: Healthcare Analytics (Under review).</h4>
           <br />
-          <h4  style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />S.T. Rikta, K.M.M. Uddin, N. Biswas, R. Mostafiz, S.K. Dey, “XML-GBMLung: An Explainable Machine Learning based Application for the Diagnosis of Lung Cancer”, Expert Systems With Applications (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />S.T. Rikta, K.M.M. Uddin, N. Biswas, R. Mostafiz, S.K. Dey, “XML-GBMLung: An Explainable Machine Learning based Application for the Diagnosis of Lung Cancer”, Expert Systems With Applications (Under review).</h4>
           <br />
-          <h4  style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, A. Qazi, “XML-LightGBMDroid: A Self-Driven Interactive Mobile Application Utilizing Explainable Machine Learning for Breast Cancer Diagnosis”, Journal: Artificial Intelligence in Medicine (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, A. Qazi, “XML-LightGBMDroid: A Self-Driven Interactive Mobile Application Utilizing Explainable Machine Learning for Breast Cancer Diagnosis”, Journal: Artificial Intelligence in Medicine (Under review).</h4>
         </article>
         <br />
-        <article className="portfolio_item" style={{width: '100%'}}>
+        <article className="portfolio_item" style={{ width: '100%' }}>
           <h3>Conference Papers</h3>
           <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, R. B. Himel and N. Biswas, "Quantum Technology for Comparator Circuit," 2022 23rd International Symposium on Quality Electronic Design (ISQED), 2022, pp. 1-1, doi:  <a style={{ display: 'inline' }} target='_blank' href='https://doi.org/10.1109/ISQED54688.2022.9806275' rel="noreferrer">https://doi.org/10.1109/ISQED54688.2022.9806275</a></h4>
           <br />
-          <h4 style={{textAlign: 'justify'}}><GiTwirlyFlower style={{marginRight: 25}} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, N. Biswas and S. T. Rikta, DNA Multiplier: A Design Architecture of a Multiplier Circuit Using DNA Molecules, London, United Kingdom <a style={{display: 'inline'}} target='_blank' href='https://publications.waset.org/abstracts/141053/pdf?fbclid=IwAR31p6111rvumFqhdRRvgAWotLXPGVEy9c765ic5a01ckkqMRYgd3V_fadc' rel="noreferrer">https://publications.waset.org/abstracts/141053/</a></h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />H. M. H. Babu, K. M. M. Uddin, N. Biswas and S. T. Rikta, DNA Multiplier: A Design Architecture of a Multiplier Circuit Using DNA Molecules, London, United Kingdom <a style={{ display: 'inline' }} target='_blank' href='https://publications.waset.org/abstracts/141053/pdf?fbclid=IwAR31p6111rvumFqhdRRvgAWotLXPGVEy9c765ic5a01ckkqMRYgd3V_fadc' rel="noreferrer">https://publications.waset.org/abstracts/141053/</a></h4>
           <br />
-          
+
         </article>
       </div>
 
