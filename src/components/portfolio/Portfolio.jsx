@@ -15,6 +15,8 @@ import MALICIOUS_URL_DETECTION from '../../assets/Malicious URL Input Web.png'
 import EXPENSE_TRACKER from '../../assets/expense-traccker.png'
 import NITISH_PORTFOLIO from '../../assets/Nitish-Portfolio.png'
 import CHAT_APP_MOBILE from '../../assets/chat-app2.png';
+import HEART from '../../assets/heart.png';
+import SHADOW from '../../assets/shadow.png';
 
 
 const Portfolio = () => {
@@ -74,14 +76,6 @@ const Portfolio = () => {
           <a className='btn' href="https://github.com/NitishBiswas/Lung_Cancer_Prediction" target='_blank' rel="noreferrer">Github</a>
         </article>
 
-        {/* <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={URL_DETECTION} alt="Stroke Web" />
-          </div>
-          <h3>Malicious URL Detection</h3>
-          <a className='btn' href="https://github.com/NitishBiswas/Malicious_URL_Detection_Mobile_APP/tree/main/MaliciousURL" target='_blank' rel="noreferrer">Github</a>
-        </article> */}
-
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={CHAT_APP_MOBILE} alt="Stroke Web" />
@@ -90,6 +84,13 @@ const Portfolio = () => {
           <a className='btn' href="https://github.com/NitishBiswas/Chat-App-Mobile" target='_blank' rel="noreferrer">Github</a>
         </article>
 
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={URL_DETECTION} alt="Stroke Web" />
+          </div>
+          <h3>Malicious URL Detection</h3>
+          <a className='btn' href="https://github.com/NitishBiswas/Malicious_URL_Detection_Mobile_APP/tree/main/MaliciousURL" target='_blank' rel="noreferrer">Github</a>
+        </article>
       </div>
 
       <div className='container'>
@@ -122,14 +123,6 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={MALICIOUS_URL_DETECTION} alt="Stroke Web" />
-          </div>
-          <h3>Malicious URL Detection</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/Malicious_URL_Detection/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
             <img src={EXPENSE_TRACKER} alt="Stroke Web" />
           </div>
           <h3>Expense Tracker</h3>
@@ -138,10 +131,34 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
+            <img src={MALICIOUS_URL_DETECTION} alt="Stroke Web" />
+          </div>
+          <h3>Malicious URL Detection</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/Malicious_URL_Detection/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={NITISH_PORTFOLIO} alt="Stroke Web" />
           </div>
           <h3>Portfolio</h3>
           <a className='btn' href="https://nitishbiswas.github.io/portfolio/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={HEART} alt="Stroke Web" />
+          </div>
+          <h3>Heart Disease Diagnose</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/heart-disease-daignose/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={SHADOW} alt="Stroke Web" />
+          </div>
+          <h3>Shadow Generator</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/shadow-generator/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
       </div>
 
