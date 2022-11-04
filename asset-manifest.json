@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63f40124.css",
-    "main.js": "/portfolio/static/js/main.c3d86a50.js",
+    "main.js": "/portfolio/static/js/main.76a12b23.js",
     "static/media/me5.jpg": "/portfolio/static/media/me5.0163698a8ea3fba18e1f.jpg",
     "static/media/Resume of Nitish Biswas.pdf": "/portfolio/static/media/Resume of Nitish Biswas.21db2b5235f484356e07.pdf",
     "static/media/me.png": "/portfolio/static/media/me.95a00dd653f2556bb6b4.png",
     "static/media/chat-app2.png": "/portfolio/static/media/chat-app2.1ce61a4c958c754dc264.png",
+    "static/media/heart.png": "/portfolio/static/media/heart.60ee4b8dfaaeb0dd0b5b.png",
     "static/media/student_list.png": "/portfolio/static/media/student_list.8ea7e669fac82d8bfa96.png",
     "static/media/stroke_web.png": "/portfolio/static/media/stroke_web.147ec2bb6d67b36a4070.png",
     "static/media/breast_cancer.png": "/portfolio/static/media/breast_cancer.cd497fdc1b2feefc78ba.png",
@@ -17,12 +18,13 @@
     "static/media/URL_DETECTION.png": "/portfolio/static/media/URL_DETECTION.54dc989e1e0f4ca69c72.png",
     "static/media/expense-traccker.png": "/portfolio/static/media/expense-traccker.b2621edfe8c80133d02c.png",
     "static/media/Malicious URL Input Web.png": "/portfolio/static/media/Malicious URL Input Web.8461e3639ce2ef38e429.png",
+    "static/media/shadow.png": "/portfolio/static/media/shadow.65998c67cd3f0aae611d.png",
     "index.html": "/portfolio/index.html",
     "main.63f40124.css.map": "/portfolio/static/css/main.63f40124.css.map",
-    "main.c3d86a50.js.map": "/portfolio/static/js/main.c3d86a50.js.map"
+    "main.76a12b23.js.map": "/portfolio/static/js/main.76a12b23.js.map"
   },
   "entrypoints": [
     "static/css/main.63f40124.css",
-    "static/js/main.c3d86a50.js"
+    "static/js/main.76a12b23.js"
   ]
 }
