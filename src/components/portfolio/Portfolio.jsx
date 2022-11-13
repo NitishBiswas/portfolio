@@ -18,7 +18,7 @@ import CHAT_APP_MOBILE from '../../assets/chat-app2.png';
 import HEART from '../../assets/heart.png';
 import SHADOW from '../../assets/shadow.png';
 import GITHUB from '../../assets/github.png';
-
+import YOUTUBE from '../../assets/youtube-clone.png';
 
 const Portfolio = () => {
   return (
@@ -168,6 +168,13 @@ const Portfolio = () => {
           </div>
           <h3>GitHub Users</h3>
           <a className='btn' href="https://nitishbiswas.github.io/github-users/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={YOUTUBE} alt="Stroke Web" />
+          </div>
+          <h3>YouTube Clone</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/youtube-clone/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
       </div>
 
