@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63f40124.css",
-    "main.js": "/portfolio/static/js/main.3a6ab7d2.js",
+    "main.js": "/portfolio/static/js/main.3b466a37.js",
     "static/media/me5.jpg": "/portfolio/static/media/me5.0163698a8ea3fba18e1f.jpg",
     "static/media/Resume of Nitish Biswas.pdf": "/portfolio/static/media/Resume of Nitish Biswas.dcf7729d4ef2a7e6e0e8.pdf",
     "static/media/me.png": "/portfolio/static/media/me.95a00dd653f2556bb6b4.png",
@@ -24,10 +24,10 @@
     "static/media/shadow.png": "/portfolio/static/media/shadow.65998c67cd3f0aae611d.png",
     "index.html": "/portfolio/index.html",
     "main.63f40124.css.map": "/portfolio/static/css/main.63f40124.css.map",
-    "main.3a6ab7d2.js.map": "/portfolio/static/js/main.3a6ab7d2.js.map"
+    "main.3b466a37.js.map": "/portfolio/static/js/main.3b466a37.js.map"
   },
   "entrypoints": [
     "static/css/main.63f40124.css",
-    "static/js/main.3a6ab7d2.js"
+    "static/js/main.3b466a37.js"
   ]
 }
