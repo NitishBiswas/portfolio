@@ -19,6 +19,7 @@ import HEART from '../../assets/heart.png';
 import SHADOW from '../../assets/shadow.png';
 import GITHUB from '../../assets/github.png';
 import YOUTUBE from '../../assets/youtube-clone.png';
+import FAKESHOP from '../../assets/fake-shop.png';
 
 const Portfolio = () => {
   return (
@@ -108,6 +109,54 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
+            <img src={FAKESHOP} alt="Stroke Web" />
+          </div>
+          <h3>FakeShop</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/FakeShop/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={EXPENSE_TRACKER} alt="Stroke Web" />
+          </div>
+          <h3>Expense Tracker</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/Expense_Tracker/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={YOUTUBE} alt="Stroke Web" />
+          </div>
+          <h3>YouTube Clone</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/youtube-clone/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={GITHUB} alt="Stroke Web" />
+          </div>
+          <h3>GitHub Users</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/github-users/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={SHADOW} alt="Stroke Web" />
+          </div>
+          <h3>Shadow Generator</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/shadow-generator/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={NITISH_PORTFOLIO} alt="Stroke Web" />
+          </div>
+          <h3>Portfolio</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/portfolio/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={STROKE_WEB} alt="Stroke Web" />
           </div>
           <h3>Stroke Prediction</h3>
@@ -124,26 +173,10 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={EXPENSE_TRACKER} alt="Stroke Web" />
-          </div>
-          <h3>Expense Tracker</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/Expense_Tracker/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
             <img src={MALICIOUS_URL_DETECTION} alt="Stroke Web" />
           </div>
           <h3>Malicious URL Detection</h3>
           <a className='btn' href="https://nitishbiswas.github.io/Malicious_URL_Detection/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={NITISH_PORTFOLIO} alt="Stroke Web" />
-          </div>
-          <h3>Portfolio</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/portfolio/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
         <article className="portfolio_item">
@@ -154,28 +187,6 @@ const Portfolio = () => {
           <a className='btn' href="https://nitishbiswas.github.io/heart-disease-daignose/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={SHADOW} alt="Stroke Web" />
-          </div>
-          <h3>Shadow Generator</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/shadow-generator/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={GITHUB} alt="Stroke Web" />
-          </div>
-          <h3>GitHub Users</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/github-users/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={YOUTUBE} alt="Stroke Web" />
-          </div>
-          <h3>YouTube Clone</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/youtube-clone/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
       </div>
 
       <div className='container'>
