@@ -14,7 +14,7 @@ const About = () => {
         <div className="about_me">
           <div className="about_me-image">
             <img src={ABOUT_ME} alt="profile" />
-            </div>
+          </div>
         </div>
         <div className="about_content">
           <div className="about_cards">
@@ -23,21 +23,21 @@ const About = () => {
               <h5>Experience</h5>
               <small>2+ Years Learning</small>
             </article>
-            
+
             <article className="about_card">
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>100+ Worldwide</small>
+              <small>0 Worldwide</small>
             </article>
-            
+
             <article className="about_card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
               <small>50+ Completed</small>
-              </article>
+            </article>
           </div>
           <p>
-            I have a passion for learning and I am currently learning to become a full stack developer. I am currently working on a project called stroke prediction using machine learning.
+            I am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
