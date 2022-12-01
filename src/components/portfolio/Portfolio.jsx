@@ -20,6 +20,7 @@ import SHADOW from '../../assets/shadow.png';
 import GITHUB from '../../assets/github.png';
 import YOUTUBE from '../../assets/youtube-clone.png';
 import FAKESHOP from '../../assets/fake-shop.png';
+import FOODIESHUB from '../../assets/foodies-hub.png';
 
 const Portfolio = () => {
   return (
@@ -106,6 +107,14 @@ const Portfolio = () => {
       </div>
 
       <div className="container portfolio_container">
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={FOODIESHUB} alt="Stroke Web" />
+          </div>
+          <h3>FoodiesHub</h3>
+          <a className='btn' href="https://foodieshub-app.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
