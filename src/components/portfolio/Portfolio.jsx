@@ -21,6 +21,8 @@ import GITHUB from '../../assets/github.png';
 import YOUTUBE from '../../assets/youtube-clone.png';
 import FAKESHOP from '../../assets/fake-shop.png';
 import FOODIESHUB from '../../assets/foodies-hub.png';
+import FAKEBLOG from '../../assets/fake-blog.png';
+import MOVE_INFO from '../../assets/movie-info.png';
 
 const Portfolio = () => {
   return (
@@ -118,10 +120,10 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={FAKESHOP} alt="Stroke Web" />
+            <img src={MOVE_INFO} alt="Stroke Web" />
           </div>
-          <h3>FakeShop</h3>
-          <a className='btn' href="https://nitishbiswas.github.io/FakeShop/" target='_blank' rel="noreferrer">Live Demo</a>
+          <h3>Movie Info</h3>
+          <a className='btn' href="https://movie-info-v1.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
         <article className="portfolio_item">
@@ -134,10 +136,26 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
+            <img src={FAKESHOP} alt="Stroke Web" />
+          </div>
+          <h3>FakeShop</h3>
+          <a className='btn' href="https://nitishbiswas.github.io/FakeShop/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={YOUTUBE} alt="Stroke Web" />
           </div>
           <h3>YouTube Clone</h3>
           <a className='btn' href="https://nitishbiswas.github.io/youtube-clone/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={STROKE_WEB} alt="Stroke Web" />
+          </div>
+          <h3>Stroke Prediction</h3>
+          <a className='btn' href="https://stroke-prediction-web.herokuapp.com/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
         <article className="portfolio_item">
@@ -166,14 +184,6 @@ const Portfolio = () => {
 
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={STROKE_WEB} alt="Stroke Web" />
-          </div>
-          <h3>Stroke Prediction</h3>
-          <a className='btn' href="https://stroke-prediction-web.herokuapp.com/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
             <img src={BREAST_IMG} alt="Stroke Web" />
           </div>
           <h3>Breast Cancer Prediction</h3>
@@ -194,6 +204,14 @@ const Portfolio = () => {
           </div>
           <h3>Heart Disease Diagnose</h3>
           <a className='btn' href="https://nitishbiswas.github.io/heart-disease-daignose/" target='_blank' rel="noreferrer">Live Demo</a>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={FAKEBLOG} alt="Stroke Web" />
+          </div>
+          <h3>Fake Blogs</h3>
+          <a className='btn' href="https://fake-blogs.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
       </div>
