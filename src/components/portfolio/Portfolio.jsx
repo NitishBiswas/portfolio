@@ -3,7 +3,6 @@ import './portfolio.css'
 
 import { GiTwirlyFlower } from 'react-icons/gi'
 
-import BREAST_IMG from '../../assets/breast_cancer.png'
 import BREAST_CANCER_MOBILE from '../../assets/breast_mobile.png'
 import PASSWORD from '../../assets/password.png'
 import STROKE_MOBILE from '../../assets/stroke_mobile.png'
@@ -155,7 +154,7 @@ const Portfolio = () => {
             <img src={STROKE_WEB} alt="Stroke Web" />
           </div>
           <h3>Stroke Prediction</h3>
-          <a className='btn' href="https://stroke-prediction-web.herokuapp.com/" target='_blank' rel="noreferrer">Live Demo</a>
+          <a className='btn' href="https://stroke-prediction.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
         <article className="portfolio_item">
@@ -180,14 +179,6 @@ const Portfolio = () => {
           </div>
           <h3>Portfolio</h3>
           <a className='btn' href="https://nitishbiswas.github.io/portfolio/" target='_blank' rel="noreferrer">Live Demo</a>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={BREAST_IMG} alt="Stroke Web" />
-          </div>
-          <h3>Breast Cancer Prediction</h3>
-          <a className='btn' href="https://predict-breast-cancer-type.herokuapp.com/" target='_blank' rel="noreferrer">Live Demo</a>
         </article>
 
         <article className="portfolio_item">
