@@ -22,6 +22,7 @@ import FAKESHOP from '../../assets/fake-shop.png';
 import FOODIESHUB from '../../assets/foodies-hub.png';
 import FAKEBLOG from '../../assets/fake-blog.png';
 import MOVE_INFO from '../../assets/movie-info.png';
+import JUGOL from '../../assets/jugol.png';
 
 const Portfolio = () => {
   return (
@@ -42,10 +43,29 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
+            <img src={JUGOL} alt="Stroke Web" />
+          </div>
+          <h3>Jugol</h3>
+          <a className='btn' href="https://github.com/NitishBiswas/project-showcase/blob/main/jugol-app.md" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Native Base</p>
+            <p>TypeScript</p>
+            <p>NodeJS</p>
+            <p>MongoDB</p>
+          </div>
+        </article>
+
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
             <img src={PASSWORD} alt="Stroke Web" />
           </div>
           <h3>Store Password</h3>
           <a className='btn' href="https://github.com/NitishBiswas/React_Native_Apps/tree/main/React%20Native%20%20App/Password_Demo" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Firebase</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -54,6 +74,10 @@ const Portfolio = () => {
           </div>
           <h3>Stroke Prediction</h3>
           <a className='btn' href="https://github.com/NitishBiswas/Stroke-Prediction-Mobile-App/tree/main/Stroke" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -62,6 +86,10 @@ const Portfolio = () => {
           </div>
           <h3>EML Breast Cancer</h3>
           <a className='btn' href="https://github.com/NitishBiswas/EML_Breast_Cancer_Mobile_App/tree/main/BreastCancerEML" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -70,6 +98,9 @@ const Portfolio = () => {
           </div>
           <h3>Student List</h3>
           <a className='btn' href="https://github.com/NitishBiswas" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -78,6 +109,10 @@ const Portfolio = () => {
           </div>
           <h3>EML Lung Cancer</h3>
           <a className='btn' href="https://github.com/NitishBiswas/Lung_Cancer_Prediction" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -86,6 +121,10 @@ const Portfolio = () => {
           </div>
           <h3>Chat App</h3>
           <a className='btn' href="https://github.com/NitishBiswas/Chat-App-Mobile" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Firebase</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -94,6 +133,10 @@ const Portfolio = () => {
           </div>
           <h3>Malicious URL Detection</h3>
           <a className='btn' href="https://github.com/NitishBiswas/Malicious_URL_Detection_Mobile_APP/tree/main/MaliciousURL" target='_blank' rel="noreferrer">Github</a>
+          <div className='portfolio_item-tool'>
+            <p>React Native</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
       </div>
 
@@ -115,6 +158,9 @@ const Portfolio = () => {
           </div>
           <h3>FoodiesHub</h3>
           <a className='btn' href="https://foodieshub-app.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -123,6 +169,10 @@ const Portfolio = () => {
           </div>
           <h3>Movie Info</h3>
           <a className='btn' href="https://movie-info-v1.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+            <p>RTK Query</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -131,6 +181,10 @@ const Portfolio = () => {
           </div>
           <h3>Expense Tracker</h3>
           <a className='btn' href="https://nitishbiswas.github.io/Expense_Tracker/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+            <p>Redux</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -139,6 +193,9 @@ const Portfolio = () => {
           </div>
           <h3>FakeShop</h3>
           <a className='btn' href="https://nitishbiswas.github.io/FakeShop/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -147,6 +204,10 @@ const Portfolio = () => {
           </div>
           <h3>YouTube Clone</h3>
           <a className='btn' href="https://nitishbiswas.github.io/youtube-clone/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+            <p>Firebase</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -155,6 +216,10 @@ const Portfolio = () => {
           </div>
           <h3>Stroke Prediction</h3>
           <a className='btn' href="https://stroke-prediction.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -163,6 +228,9 @@ const Portfolio = () => {
           </div>
           <h3>GitHub Users</h3>
           <a className='btn' href="https://nitishbiswas.github.io/github-users/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -171,6 +239,9 @@ const Portfolio = () => {
           </div>
           <h3>Shadow Generator</h3>
           <a className='btn' href="https://nitishbiswas.github.io/shadow-generator/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -179,6 +250,9 @@ const Portfolio = () => {
           </div>
           <h3>Portfolio</h3>
           <a className='btn' href="https://nitishbiswas.github.io/portfolio/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -187,6 +261,10 @@ const Portfolio = () => {
           </div>
           <h3>Malicious URL Detection</h3>
           <a className='btn' href="https://nitishbiswas.github.io/Malicious_URL_Detection/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -195,6 +273,10 @@ const Portfolio = () => {
           </div>
           <h3>Heart Disease Diagnose</h3>
           <a className='btn' href="https://nitishbiswas.github.io/heart-disease-daignose/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+            <p>Machine Learning</p>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -203,6 +285,9 @@ const Portfolio = () => {
           </div>
           <h3>Fake Blogs</h3>
           <a className='btn' href="https://fake-blogs.netlify.app/" target='_blank' rel="noreferrer">Live Demo</a>
+          <div className='portfolio_item-tool'>
+            <p>React</p>
+          </div>
         </article>
 
       </div>
@@ -222,13 +307,13 @@ const Portfolio = () => {
           <h3>Journal Papers</h3>
           <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />N. Biswas, K.M.M. Uddin, S.T. Rikta et al., A comparative analysis of machine learning classifiers for stroke prediction: A predictive analytics approach, Healthcare Analytics (2022), doi: <a style={{ display: 'inline' }} href='https://doi.org/10.1016/j.health.2022.100116' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.health.2022.100116</a> (Publisher: Elsevier).</h4>
           <br />
-          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, "Machine Learning-based Diagnosis of Breast Cancer Utilizing Feature Optimization Technique", Journal: Computer Methods and Programs in Biomedicine Update (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K. M. Mohi Uddin, N. Biswas, S. T. Rikta, S. K. Dey, and A. Qazi, “XML-LightGBMDroid: A self-driven interactive mobile application utilizing explainable machine learning for breast cancer diagnosis,” Engineering Reports, 2023, doi: <a style={{ display: 'inline' }} href='https://doi.org/10.1002/eng2.12666' target='_blank' rel="noreferrer">https://doi.org/10.1002/eng2.12666</a></h4>
           <br />
-          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, " Explainable Machine Learning Can Outperform Stroke Predictions and Hybrid Stroke Prediction Application: A Predictive Analytics Approach", Journal: Healthcare Analytics (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K. M. M. Uddin, N. Biswas, S. T. Rikta, and S. K. Dey, “Machine learning-based diagnosis of breast cancer utilizing feature optimization technique,” Computer Methods and Programs in Biomedicine Update, vol. 3, p. 100098, 2023, doi: <a style={{ display: 'inline' }} href='https://doi.org/10.1016/j.cmpbup.2023.100098' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.cmpbup.2023.100098</a></h4>
           <br />
-          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />S.T. Rikta, K.M.M. Uddin, N. Biswas, R. Mostafiz, S.K. Dey, “XML-GBMLung: An Explainable Machine Learning based Application for the Diagnosis of Lung Cancer”, Expert Systems With Applications (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />S. T. Rikta, K. M. M. Uddin, N. Biswas, R. Mostafiz, F. Sharmin, and S. K. Dey, “XML-GBM lung: An explainable machine learning-based application for the diagnosis of lung cancer,” J Pathol Inform, vol. 14, p. 100307, 2023, doi: <a style={{ display: 'inline' }} href='https://doi.org/10.1016/j.jpi.2023.100307' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.jpi.2023.100307</a></h4>
           <br />
-          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K.M.M. Uddin, N. Biswas, S.T. Rikta, S.K. Dey, A. Qazi, “XML-LightGBMDroid: A Self-Driven Interactive Mobile Application Utilizing Explainable Machine Learning for Breast Cancer Diagnosis”, Journal: Artificial Intelligence in Medicine (Under review).</h4>
+          <h4 style={{ textAlign: 'justify' }}><GiTwirlyFlower style={{ marginRight: 25 }} color={'#20fc03'} />K. M. Mohi Uddin, R. Ripa, N. Yeasmin, N. Biswas, and S. K. Dey, “Machine learning-based approach to the diagnosis of cardiovascular vascular disease using a combined dataset,” Intell Based Med, vol. 7, p. 100100, 2023, doi: <a style={{ display: 'inline' }} href='https://doi.org/10.1016/j.ibmed.2023.100100' target='_blank' rel="noreferrer">https://doi.org/10.1016/j.ibmed.2023.100100</a></h4>
         </article>
         <br />
         <article className="portfolio_item" style={{ width: '100%' }}>

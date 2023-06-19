@@ -26,8 +26,25 @@
     overflow: hidden;
 }
 
+.portfolio_item-tool {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.portfolio_item-tool p {
+    background-color: aliceblue;
+    color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 2px;
+}
+
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio_item a {
